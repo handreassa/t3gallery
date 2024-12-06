@@ -9,6 +9,10 @@ export default {
         sans: ["var(--font-geist-sans)", ...fontFamily.sans],
       },
     },
+    colors: {  
+      customBg: '#03001C',
+      customText: '#DDE6ED',
+    }
   },
   plugins: [],
 } satisfies Config;
